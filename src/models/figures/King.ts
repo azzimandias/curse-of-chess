@@ -23,5 +23,6 @@ export class King extends Figure {
         if ((dx === 1 || dx === 0 || dx === -1) && (dy === 1 || dy === 0 || dy === -1)) {
             return true;
         }
+        return false;
     }
 }
